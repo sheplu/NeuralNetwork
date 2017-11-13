@@ -1,2 +1,7 @@
 # NeuralNetwork
-First draft of a nodejs neural network
+Neural Network in nodejs
+
+#Run
+tsc
+tsc main.js
+npm start
