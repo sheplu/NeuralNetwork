@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist/",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -16,13 +16,13 @@
       "dom"
     ]
   },
-    "include": [
-        "lib/*",
-        "main.js",
-        "lib/model/*"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
-    ]
+  "include": [
+      "lib/*",
+      "main.ts",
+      "lib/model/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
 }
