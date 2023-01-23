@@ -1,6 +1,6 @@
-
 import { NeuralNetwork } from './lib/neuralNetwork';
-const repl: any = require('repl');
+import * as repl from 'repl';
+
 
 const server = repl.start({
   prompt: 'NN > '
