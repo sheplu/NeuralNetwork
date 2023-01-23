@@ -1,6 +1,10 @@
 # NeuralNetwork
-Neural Network in nodejs
 
-#Run
+Neural Network in Node.js.
+
+## Installation and starting
+
+```bash
 tsc
 npm start
+```
