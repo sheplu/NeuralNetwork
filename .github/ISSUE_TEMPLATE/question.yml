@@ -1,0 +1,16 @@
+name: 🤔 Question
+description: Ask a question about the project 🤔
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks 😁 for taking the time to fill out this question!
+  - type: textarea
+    attributes:
+      label: 'Enter your question in details:'
+      placeholder: |
+        I have a question about ...
+        I would like to know ...
+    validations:
+      required: true

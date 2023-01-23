@@ -1,0 +1,21 @@
+name: 🐛 Bug Report
+description: Report an issue if something isn't working as expected 🤔.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks 😁 for taking the time to fill out this bug report!
+  - type: input
+    attributes:
+      placeholder: 'What version of the project are you using?'
+      label: Version
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      placeholder: 'What happened?'
+      label: Description
+    validations:
+      required: true
+  
