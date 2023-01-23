@@ -10,4 +10,4 @@ export class Neuron {
   setBias(arg) {
     this.bias = arg || Math.random();
   };
-}
+};

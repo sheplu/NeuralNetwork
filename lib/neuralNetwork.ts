@@ -52,6 +52,6 @@ export class NeuralNetwork{
     console.log('showCfg');
     console.log(this.config);
     console.log(this.layer);
-  }
+  };
 
 };
