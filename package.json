@@ -7,7 +7,6 @@
     "up": "console.log('test')"
   },
   "dependencies": {
-    "@types/node": "^8.0.47"
-  },
-  "devDependencies": {}
+    "@types/node": "^18.11.18"
+  }
 }
