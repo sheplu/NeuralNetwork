@@ -45,7 +45,7 @@ export class NeuralNetwork{
   };
 
   snapshot() {
-    console.log('snapchsot');
+    console.log('snapshot');
   };
 
   showCfg() {
